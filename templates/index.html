@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Art Commission Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Art Commissions</h1>
+    <ul>
+        {% for commission in commissions %}
+        <li>{{ commission.get_details() }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/add">Add New Commission</a>
+</body>
+</html>

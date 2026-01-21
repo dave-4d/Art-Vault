@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Commission</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Add New Commission</h1>
+    <form method="post">
+        Client: <input type="text" name="client" required><br>
+        Description: <input type="text" name="description" required><br>
+        Type: <select name="type">
+            <option value="commission">General</option>
+            <option value="digital">Digital</option>
+            <option value="traditional">Traditional</option>
+        </select><br>
+        Software (for digital): <input type="text" name="software"><br>
+        Medium (for traditional): <input type="text" name="medium"><br>
+        <input type="submit" value="Add">
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
