@@ -7,12 +7,15 @@ The process for using it goes like this: You run the app.py file, you get a link
 redirected to the web app. There you find a clear presentation of what to write in. Then you fill in the required information 
 and add it. After that, the database get's updated to include new data you just added.
 
-## Features
-
+## Brief Description
 - Add new sold artworks
 - View sales history
 - Integration of a database using SQLite
 - Responsive UI using HMTL and CSS
+
+## Features
+
+
 
 ## How to use
 
