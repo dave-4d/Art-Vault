@@ -15,6 +15,13 @@ and add it. After that, the database get's updated to include new data you just 
 
 ## Features
 
+- Object-Oriented Programming: Implemented through classes in models.py
+- Inheritance: Classes inherit from the base class
+- Polymorphism
+- Modules and Packages: Code is organized into separate modules (app.py for the web app, models.py for classes, database.py for data operations)
+- SQLite with Python: uses sqlite3 module to create a database
+- Virtual Environment and Requirements
+- JSON with Python
 
 
 ## How to use
