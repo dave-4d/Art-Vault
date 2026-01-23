@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+art_vault.egg-info/PKG-INFO
+art_vault.egg-info/SOURCES.txt
+art_vault.egg-info/dependency_links.txt
+art_vault.egg-info/entry_points.txt
+art_vault.egg-info/requires.txt
+art_vault.egg-info/top_level.txt
+artvault/__init__.py
+artvault/app.py
+artvault/database.py
+artvault/models.py
+artvault/static/style.css
+artvault/templates/add.html
+artvault/templates/index.html

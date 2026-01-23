@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "art-vault"
+version = "0.1.0"
+description = "A web app for art vendors to track sales"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "Flask>=3.0.0"
+]
+authors = [
+    {name = "david", email = "rubgdavid@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["art", "sales", "webapp", "flask"]
+
+[project.urls]
+Homepage = "https://github.com/dave-4d/art-vault"
+Repository = "https://github.com/dave-4d/art-vault"
+
+[project.scripts]
+art-vault = "artvault.app:main"
+
+[tool.setuptools]
+packages = ["artvault"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"artvault" = ["templates/*", "static/*"]

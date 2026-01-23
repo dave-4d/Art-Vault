@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: art-vault
+Version: 0.1.0
+Summary: A web app for art vendors to track sales
+Author-email: david <rubgdavid@gmail.com>
+Project-URL: Homepage, https://github.com/dave-4d/art-vault
+Project-URL: Repository, https://github.com/dave-4d/art-vault
+Keywords: art,sales,webapp,flask
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Flask>=3.0.0
+
 # ART VAULT
 
 Art vault is a web app used for art vendors to keep track of their sales. 
@@ -12,7 +27,6 @@ and add it. After that, the database get's updated to include new data you just 
 - View sales history
 - Integration of a database using SQLite
 - Responsive UI using HMTL and CSS
-- It was also uploaded on PyPi: https://pypi.org/project/artvault/
 
 ## Features
 

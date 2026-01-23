@@ -1,0 +1,2 @@
+[console_scripts]
+art-vault = artvault.app:main
